@@ -12,7 +12,7 @@
  * The above copyright notice and this permission notice shall be included
  * in all copies or substantial portions of the Materials.
  *
- * MODIFICATIONS TO THIS FILE MAY MEAN IT NO LONGER ACCURATELY REFLECTS
+ * MODIFICATIONS TO THIS FILE MAY MEAN IT NO LONGE"CL/R ACCURATELY REFLECTS
  * KHRONOS STANDARDS. THE UNMODIFIED, NORMATIVE VERSIONS OF KHRONOS
  * SPECIFICATIONS AND HEADER INFORMATION ARE LOCATED AT
  *    https://www.khronos.org/registry/
@@ -42,7 +42,7 @@ extern "C" {
         #include <OpenCL/cl.h>
     #include <AvailabilityMacros.h>
 #else
-        #include <CL/cl.h>
+        #include "cl.h"
 #endif
 
 /* cl_khr_fp16 extension - no extension #define since it has no functions  */

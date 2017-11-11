@@ -52,8 +52,8 @@ Notes:
 #ifndef __OPENCL_CL_DX9_MEDIA_SHARING_INTEL_H
 #define __OPENCL_CL_DX9_MEDIA_SHARING_INTEL_H
 
-#include <CL/cl.h>
-#include <CL/cl_platform.h>
+#include "cl.h"
+#include "cl_platform.h"
 #include <d3d9.h>
 #include <dxvahd.h>
 #include <wtypes.h>

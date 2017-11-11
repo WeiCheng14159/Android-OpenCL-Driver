@@ -37,17 +37,17 @@ extern "C" {
 
 #ifdef __APPLE__
 
-#include <OpenCL/cl.h>
-#include <OpenCL/cl_gl.h>
-#include <OpenCL/cl_gl_ext.h>
-#include <OpenCL/cl_ext.h>
+#include "OpenCL/cl.h"
+#include "OpenCL/cl_gl.h"
+#include "OpenCL/cl_gl_ext.h"
+#include "OpenCL/cl_ext.h"
 
 #else
 
-#include <CL/cl.h>
-#include <CL/cl_gl.h>
-#include <CL/cl_gl_ext.h>
-#include <CL/cl_ext.h>
+#include "cl.h"
+#include "cl_gl.h"
+#include "cl_gl_ext.h"
+#include "cl_ext.h"
 
 #endif
 
