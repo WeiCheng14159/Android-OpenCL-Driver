@@ -497,7 +497,7 @@
 
 // 
 #if defined(CL_HPP_USE_CL_DEVICE_FISSION) || defined(CL_HPP_USE_CL_SUB_GROUPS_KHR)
-#include <CL/cl_ext.h>
+#include "CL/cl_ext.h"
 #endif
 
 #if defined(__APPLE__) || defined(__MACOSX)
